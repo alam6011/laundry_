@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fauzan Laundry</title>
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+  <!-- Hero -->
+  <header class="reveal">
+    <h1>Fauzan Laundry</h1>
+    <p>Cuci cepat, wangi, dan rapi. Antar jemput gratis!</p>
+    <a href="#order" class="btn-primary">Pesan Sekarang</a>
+  </header>
+
+  <!-- Layanan -->
+  <section class="reveal">
+    <h2>Layanan Kami</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Laundry Kiloan</h3>
+        <p>Cuci + Setrika bersih dan rapi</p>
+      </div>
+      <div class="card">
+        <h3>Laundry Satuan</h3>
+        <p>Untuk jas, gaun, bed cover, dll</p>
+    </div>
+    <div class="card">
+      <h3>Laundry Sepatu</h3>
+      <p>Sepatu Kulit,Sepatu Gunung</p>
+    </div>
+      <div class="card">
+        <h3>Antar Jemput</h3>
+        <p>Gratis area dalam kota</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Harga -->
+  <section class="reveal">
+    <h2>Paket Harga</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Paket Hemat</h3>
+        <p class="price">Rp6.000 / kg</p>
+        <p>Cuci lipat saja</p>
+      </div>
+      <div class="card">
+        <h3>Paket Reguler</h3>
+        <p class="price">Rp8.000 / kg</p>
+        <p>Cuci + Setrika</p>
+      </div>
+      <div class="card">
+        <h3>Paket Ekspres</h3>
+        <p class="price">Rp12.000 / kg</p>
+        <p>1 Hari Jadi</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Lokasi -->
+<section class="reveal">
+  <h2>Lokasi Kami</h2>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.3886872186956!2d112.72987946830094!3d-7.215842130104628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1757509645176!5m2!1sid!2sid"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Tombol buka di Maps -->
+  <div class="map-btn">
+    <a href="https://goo.gl/maps/xxxxxxxxx" target="_blank" class="btn-order">
+      Buka di Google Maps
+    </a>
+  </div>
+</section>
+
+
+  <!-- Testimoni -->
+  <section class="reveal">
+    <h2>Testimoni</h2>
+  
+    <!-- Form Tambah Testimoni -->
+    <div class="testimonial-form">
+      <input type="text" id="authorInput" placeholder="Nama Anda">
+      <textarea id="messageInput" placeholder="Tulis komentar di sini..."></textarea>
+      <button onclick="addTestimonial()">Tambah Testimoni</button>
+    </div>
+  
+    <!-- List Testimoni -->
+    <div class="testimonials" id="testimonialList">
+      <!-- Contoh testimoni awal -->
+      <div class="testimonial">
+        <p class="message">“Pakaian saya jadi wangi dan rapi. Recommended!”</p>
+        <p class="author">– Sinta</p>
+      </div>
+      <div class="testimonial">
+        <p class="message">“Antar jemputnya cepat, sangat membantu.”</p>
+        <p class="author">– Budi</p>
+      </div>
+    </div>
+  </section>
+  <!-- CTA -->
+  <section id="order" class="cta reveal">
+    <h2>Siap Laundry Hari Ini?</h2>
+    <p>Klik tombol di bawah untuk memesan layanan kami.</p>
+    <a href="https://wa.me/6287705637781" class="btn-order">Pesan via WhatsApp</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="reveal">
+    <p>© 2025 Laundry Bersih. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="landing.js"></script>
+</body>
+</html>
